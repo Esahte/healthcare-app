@@ -59,7 +59,7 @@ This will start both the frontend (http://localhost:5173) and backend (http://lo
 ### 4. Using the Dashboard
 
 #### 4.1 Data Upload
-![img.png](imgs/img.png)
+![img.png](img/img.png)
 
 *Figure 1: Data upload interface showing the file selection button and upload area*
 1. Click the "Data Upload" tab
@@ -77,7 +77,7 @@ This will start both the frontend (http://localhost:5173) and backend (http://lo
    - Cholesterol Level
 
 #### 4.2 Parameter Configuration
-![img_1.png](imgs/img_1.png)
+![img_1.png](img/img_1.png)
 
 *Figure 2: Parameter configuration screen showing resource input fields*
 1. Navigate to the "Parameters" tab
@@ -89,7 +89,7 @@ This will start both the frontend (http://localhost:5173) and backend (http://lo
 3. Click "Update Parameters" to save changes
 
 #### 4.3 Viewing Results
-![img_2.png](imgs/img_2.png)
+![img_2.png](img/img_2.png)
 
 *Figure 3: Results dashboard showing cluster analysis and resource allocation chart*
 The "Results" tab shows:
