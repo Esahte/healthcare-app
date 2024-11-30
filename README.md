@@ -1,4 +1,5 @@
-# Healthcare Resource Allocation Dashboard
+# HealthAlloc Pro
+## Healthcare Resource Allocation Dashboard
 ## User Documentation
 
 ### Table of Contents
@@ -10,7 +11,11 @@
 6. Data Format Specifications
 
 ### 1. Introduction
-The Healthcare Resource Allocation Dashboard is a web-based application that helps healthcare facilities optimize their resource allocation based on patient data. The system uses machine learning to cluster patients and provides intelligent resource distribution recommendations.
+The Healthcare Resource Allocation Dashboard is a web-based application
+that helps
+healthcare facilities optimize their resource allocation based on patient data
+specifically using deceased symptoms and patient profile.
+The system uses machine learning to cluster patients and provides intelligent resource distribution recommendations.
 
 ### 2. System Requirements
 - Python 3.8 or higher
@@ -54,6 +59,9 @@ This will start both the frontend (http://localhost:5173) and backend (http://lo
 ### 4. Using the Dashboard
 
 #### 4.1 Data Upload
+![img.png](imgs/img.png)
+
+*Figure 1: Data upload interface showing the file selection button and upload area*
 1. Click the "Data Upload" tab
 2. Click "Select File" to choose your CSV file
 3. The system accepts CSV files with the following columns:
@@ -69,6 +77,9 @@ This will start both the frontend (http://localhost:5173) and backend (http://lo
    - Cholesterol Level
 
 #### 4.2 Parameter Configuration
+![img_1.png](imgs/img_1.png)
+
+*Figure 2: Parameter configuration screen showing resource input fields*
 1. Navigate to the "Parameters" tab
 2. Adjust resource availability numbers:
    - CPAP machines
@@ -78,6 +89,9 @@ This will start both the frontend (http://localhost:5173) and backend (http://lo
 3. Click "Update Parameters" to save changes
 
 #### 4.3 Viewing Results
+![img_2.png](imgs/img_2.png)
+
+*Figure 3: Results dashboard showing cluster analysis and resource allocation chart*
 The "Results" tab shows:
 - Cluster Analysis Table
   - Patient clusters
